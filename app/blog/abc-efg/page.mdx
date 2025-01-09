@@ -1,0 +1,28 @@
+import MdxLayout from "@/components/mdx-layout";
+
+<MdxLayout>
+# Blockchain Fundamentals
+
+### Smart Contract Example
+
+```solidity
+pragma solidity ^0.8.0;
+contract SimpleStorage {
+    uint256 public storedData;
+
+    function set(uint256 x) public {
+        storedData = x;
+    }
+    function get() public view returns (uint256) {
+        return storedData;
+    }
+}
+```
+
+## Use Cases
+
+- Supply chain management
+- Decentralized finance
+- Identity verification
+
+</MdxLayout>
