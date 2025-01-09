@@ -40,7 +40,7 @@ export default function Header() {
           aria-label="Toggle theme"
         >
           <Image
-            src={theme === "light" ? "/light-toggle.svg" : "/dark-toggle.svg"}
+            src={theme === "light" ? "./light-toggle.svg" : "./dark-toggle.svg"}
             alt="theme toggle"
             width={48}
             height={28}
