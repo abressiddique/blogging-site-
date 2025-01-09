@@ -10,7 +10,7 @@ export default function Footer() {
     <div className="py-8 flex px-5 md:px-0 justify-between items-center border-t border-gray-300 dark:border-gray-600 mt-10">
       <Link href={"/"} className="flex space-x-2 items-center">
         <Image
-          src={theme === "light" ? "/light-union.svg" : "/dark-union.svg"}
+          src={theme === "light" ? "./light-union.svg" : "./dark-union.svg"}
           width={36}
           height={36}
           alt="logo"
