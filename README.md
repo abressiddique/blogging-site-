@@ -1,6 +1,9 @@
 
 # Next MDX Blog
 
+
+
+
 This is a **Next.js** powered blogging site with **MDX** integration, allowing you to write blog posts using Markdown mixed with JSX components. It's a fast, modern, and customizable platform for creating blogs. The site is styled using **TailwindCSS** and supports themes with **next-themes**.
 
 ## Features
